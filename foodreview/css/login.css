@@ -6,7 +6,7 @@ body {
   background-size:cover ;
 }
 header {
-  color: #ec8619;
+  color: #ec2719;
   text-align: center;
   text-shadow:0 2px 4px #333;
 }
@@ -48,7 +48,7 @@ button {
 }
 
 button:hover {
-  background-color: #10ca10;
+  background-color: #ca101c;
   transition: background-color 0.3s;
 }
 
