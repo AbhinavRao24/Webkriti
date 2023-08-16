@@ -1,43 +1,18 @@
-/* Reset some default styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body{
-  background-image: url("https://plus.unsplash.com/premium_photo-1679434184867-a294eb85400c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80");
-  background-size:cover ;
-}
-
-h1{
-  font-family: franklin gothic medium;
-}
-#signup:hover{
-  color: rgb(255, 128, 0);
-}
-
-#login{
-  font-family: lucida ;
-}
-
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  background-color: #9a031e;
   color: #333;
+  margin: 0;
+  background-color: rgba(235, 241, 243, 0.895);
+  background-size:cover ;
 }
-
 header {
-  background-color: #170f0f;
-  color: #fff;
+  color: #ec8619;
   text-align: center;
-  padding: 1rem;
 }
-
-section {
+section#login {
   max-width: 400px;
-  margin: 2rem auto;
-  background-color: #fff;
+  margin: 100px auto 0; /* Adjust the margin-top value to lower or raise the login box */
   padding: 2rem;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -62,21 +37,27 @@ button {
   padding: 0.5rem 1rem;
   border-radius: 4px;
   cursor: pointer;
-  transition: background-color 0.3s;
+
 }
 
 button:hover {
-  background-color: #e17510;
+  background-color: #10ca10;
+  transition: background-color 0.3s;
 }
 
 a {
   color: #333;
   text-decoration: none;
 }
+a:hover{
+  color: rgb(255, 51, 0);
+  text-decoration: underline;
+}
 
 footer {
-  text-align: bottom;
+  text-align: center;
   padding: 1rem;
   background-color: #333;
   color: #fff;
 }
+
