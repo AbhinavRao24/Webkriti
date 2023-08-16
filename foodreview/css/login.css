@@ -5,6 +5,22 @@
   box-sizing: border-box;
 }
 
+body{
+  background-image: url("https://plus.unsplash.com/premium_photo-1679434184867-a294eb85400c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80");
+  background-size:cover ;
+}
+
+h1{
+  font-family: franklin gothic medium;
+}
+#signup:hover{
+  color: rgb(255, 128, 0);
+}
+
+#login{
+  font-family: lucida ;
+}
+
 body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
@@ -12,7 +28,7 @@ body {
 }
 
 header {
-  background-color: #333;
+  background-color: #170f0f;
   color: #fff;
   text-align: center;
   padding: 1rem;
@@ -50,7 +66,7 @@ button {
 }
 
 button:hover {
-  background-color: #555;
+  background-color: #e17510;
 }
 
 a {
@@ -59,7 +75,7 @@ a {
 }
 
 footer {
-  text-align: center;
+  text-align: bottom;
   padding: 1rem;
   background-color: #333;
   color: #fff;
