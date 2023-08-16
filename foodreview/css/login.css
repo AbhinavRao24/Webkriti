@@ -3,7 +3,6 @@ body {
   background-color: #9a031e;
   color: #333;
   margin: 0;
-  background-color: rgba(235, 241, 243, 0.895);
   background-size:cover ;
 }
 header {
@@ -16,6 +15,7 @@ section#login {
   padding: 2rem;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: aqua;
 }
 
 form {
@@ -31,7 +31,7 @@ input {
 }
 
 button {
-  background-color: #333;
+  background-color: #d1cd10;
   color: #fff;
   border: none;
   padding: 0.5rem 1rem;
