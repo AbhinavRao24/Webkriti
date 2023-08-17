@@ -9,6 +9,7 @@ header {
   color: #ec2719;
   text-align: center;
   text-shadow:0 2px 4px #333;
+  text-decoration: underline;
 }
 section#login {
   transform: translate(0,-100px);
