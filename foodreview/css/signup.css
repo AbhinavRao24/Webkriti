@@ -1,3 +1,4 @@
+/* Reset some default styles */
 * {
   margin: 0;
   padding: 0;
@@ -20,14 +21,17 @@ header {
 
 section#signup {
   max-width: 400px;
-  margin: 100px auto 0; /* Adjust the margin-top value to position the signup box */
+  margin: 100px auto 0;
   background-color: #fff;
   padding: 2rem;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transform: translate(-300px,-100px);
 }
+
 /* Add this to your existing signup.css file */
+/* ... The rest of your CSS code for slideshow, form, and styles ... */
+
 
 #slideshow {
   max-width: 800px;
